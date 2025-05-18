@@ -1,7 +1,7 @@
 from pygame import *
 font.init()
 window = display.set_mode((700, 500))
-display.set_caption('пинг-понг')  
+display.set_caption('Пинг-Понг')  
 fon = transform.scale(image.load("fon.jpg"), (700, 500))
 speed_x = 3
 speed_y = 3
